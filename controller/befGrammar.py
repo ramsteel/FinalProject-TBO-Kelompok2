@@ -3,13 +3,6 @@
 startSymbol = 'K'
 dct = {}
 
-# proses pencetakan pada Grammar
-def display(dct):
-    for i in dct:
-        print(i, '--> ', end='')
-        print(*dct[i], sep='|')
-        print()
-
 def insertGrammar():
     global dct
     cfg = [
