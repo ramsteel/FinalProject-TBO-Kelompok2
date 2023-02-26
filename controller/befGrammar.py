@@ -4,7 +4,9 @@ startSymbol = 'K'
 dct = {}
 
 # display grammar pada terminal
-
+def display(): 
+    for i in dct:
+        print(i, '-->', dct[i])
 
 def insertGrammar():
     global dct
